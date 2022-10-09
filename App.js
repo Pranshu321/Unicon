@@ -94,7 +94,7 @@ export default function App() {
 
   return (
     <View style={[styles.container, { marginTop: 45 }]}>
-      <Text style={styles.title}>Unicov</Text>
+      <Text style={styles.title}>Unicon</Text>
       <TabView navigationState={{ index, routes }}
         renderScene={RenderScreen}
         onIndexChange={setindex}
